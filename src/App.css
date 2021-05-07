@@ -18,6 +18,7 @@
 
 
 .dogs {
+  /* background-image: url('/images/'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,6 +27,7 @@
 }
 
 .owners {
+  /* background-image: url('/images/'); */
   background-color:black;
   background-position: center;
   background-size: fill;
@@ -35,7 +37,7 @@
 }
 
 .sign-up {
-  /* background-image: url('/images/img-8.jpg'); */
+  /* background-image: url('/images/'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

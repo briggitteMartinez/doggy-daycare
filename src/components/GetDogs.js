@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './GetDogs.css';
 
+
+
+
 function GetDogs() {
     let url = "https://api.jsonbin.io/b/608bb72fd64cd16802a4fb77";
 
@@ -59,9 +62,9 @@ function GetDogs() {
                     </li>
                 ))}
             </ul>
-
         </div>
 
+                      
     )
 
 

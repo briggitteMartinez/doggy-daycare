@@ -4,16 +4,16 @@
   display: grid;
   grid-gap: 0.5em;
   grid-template-rows: 3em repeat(100, 10em);
-  background-color: black;
+  background: black;
 }
 .dog-header{
   display: flexbox;
   align-items: center;
   text-align: center;
-  color: black;
+  background: rgb(43, 43, 43);
   font-size: 36px;
-  margin: 20px;
-  color:rgb(8, 46, 11);
+  margin: 10 px;
+  color:rgb(235, 235, 235);
 }
 
 .dog-column {
@@ -22,6 +22,7 @@
   grid-column-start: 1;
   grid-column-end: -1;
   padding: 0.5em;
+  border: 8px solid rgb(43, 43, 43);   
 
 }
 .dog-name{
@@ -37,12 +38,12 @@
   align-items: center;
   text-align: center;
     margin-top: 25%;
-    color: rgb(8, 46, 11);
+    color: rgb(66, 68, 66);
     font-size: 20px;
 
 }
 .dog-name > p {
-color:rgb(8, 46, 11);
+color:rgb(66, 68, 66);
 font-size: 20px;
 }
 
@@ -50,6 +51,6 @@ font-size: 20px;
   width: 100%;
   height: 100%;
   object-fit: fit;
-  border: 8px solid rgb(8, 46, 11);   
+  border: 8px solid rgb(66, 68, 66);   
 }
 
